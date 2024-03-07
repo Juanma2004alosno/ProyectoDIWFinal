@@ -1,0 +1,48 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'informatica/informatica';
+@import 'muebles/buebles';
+@import 'moviles/moviles';
+@import 'principal/principal';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $body-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+#loginForm {
+  margin-top: 50px;
+  
+  .form-group {
+    position: relative;
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+    }
+  }
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+
+.col-md-4 {
+  width: 33.33%; 
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}

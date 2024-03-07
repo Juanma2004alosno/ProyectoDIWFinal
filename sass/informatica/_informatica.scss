@@ -1,0 +1,60 @@
+// Cabecera
+#cabecera.tienda-informatica {
+    background-color: #007bff;
+  }
+  
+  #cabecera.tienda-informatica .navbar-brand {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-informatica .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  #cabecera.tienda-informatica .nav-link {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-informatica .nav-link:hover {
+    color: #ccc;
+  }
+  
+  // Contenido principal
+  #productContainer.tienda-informatica {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-informatica .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #productContainer.tienda-informatica .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  #productContainer.tienda-informatica .card-body {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-informatica .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #productContainer.tienda-informatica .card-text {
+    color: #666;
+  }
+  
+  #productContainer.tienda-informatica .btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #productContainer.tienda-informatica .btn:hover {
+    background-color: #0056b3;
+  }
+  

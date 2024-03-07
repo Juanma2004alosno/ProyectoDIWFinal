@@ -1,0 +1,60 @@
+// Cabecera
+#cabecera.tienda-muebles {
+    background-color: #4caf50;
+  }
+  
+  #cabecera.tienda-muebles .navbar-brand {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-muebles .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  #cabecera.tienda-muebles .nav-link {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-muebles .nav-link:hover {
+    color: #ccc;
+  }
+  
+  // Contenido principal
+  #productContainer.tienda-muebles {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-muebles .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #productContainer.tienda-muebles .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  #productContainer.tienda-muebles .card-body {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-muebles .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #productContainer.tienda-muebles .card-text {
+    color: #666;
+  }
+  
+  #productContainer.tienda-muebles .btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  #productContainer.tienda-muebles .btn:hover {
+    background-color: #388e3c;
+  }
+  

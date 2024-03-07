@@ -1,0 +1,60 @@
+// Cabecera
+#cabecera.tienda-moviles {
+    background-color: #ff9800;
+  }
+  
+  #cabecera.tienda-moviles .navbar-brand {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-moviles .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  #cabecera.tienda-moviles .nav-link {
+    color: #fff;
+  }
+  
+  #cabecera.tienda-moviles .nav-link:hover {
+    color: #ccc;
+  }
+  
+  // Contenido principal
+  #productContainer.tienda-moviles {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-moviles .card {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #productContainer.tienda-moviles .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  #productContainer.tienda-moviles .card-body {
+    padding: 20px;
+  }
+  
+  #productContainer.tienda-moviles .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #productContainer.tienda-moviles .card-text {
+    color: #666;
+  }
+  
+  #productContainer.tienda-moviles .btn {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  #productContainer.tienda-moviles .btn:hover {
+    background-color: #f57c00;
+  }
+  
