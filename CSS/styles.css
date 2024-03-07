@@ -1,0 +1,340 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: fadeIn 1s ease-in-out;
+}
+#cabecera.tienda-informatica {
+  background-color: #007bff;
+}
+
+#cabecera.tienda-informatica .navbar-brand {
+  color: #fff;
+}
+
+#cabecera.tienda-informatica .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+#cabecera.tienda-informatica .nav-link {
+  color: #fff;
+}
+
+#cabecera.tienda-informatica .nav-link:hover {
+  color: #ccc;
+}
+
+#productContainer.tienda-informatica {
+  padding: 20px;
+}
+
+#productContainer.tienda-informatica .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#productContainer.tienda-informatica .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#productContainer.tienda-informatica .card-body {
+  padding: 20px;
+}
+
+#productContainer.tienda-informatica .card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+#productContainer.tienda-informatica .card-text {
+  color: #666;
+}
+
+#productContainer.tienda-informatica .btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#productContainer.tienda-informatica .btn:hover {
+  background-color: #0056b3;
+}
+
+#cabecera.tienda-muebles {
+  background-color: #4caf50;
+}
+
+#cabecera.tienda-muebles .navbar-brand {
+  color: #fff;
+}
+
+#cabecera.tienda-muebles .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+#cabecera.tienda-muebles .nav-link {
+  color: #fff;
+}
+
+#cabecera.tienda-muebles .nav-link:hover {
+  color: #ccc;
+}
+
+#productContainer.tienda-muebles {
+  padding: 20px;
+}
+
+#productContainer.tienda-muebles .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#productContainer.tienda-muebles .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#productContainer.tienda-muebles .card-body {
+  padding: 20px;
+}
+
+#productContainer.tienda-muebles .card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+#productContainer.tienda-muebles .card-text {
+  color: #666;
+}
+
+#productContainer.tienda-muebles .btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+#productContainer.tienda-muebles .btn:hover {
+  background-color: #388e3c;
+}
+
+#cabecera.tienda-moviles {
+  background-color: #ff9800;
+}
+
+#cabecera.tienda-moviles .navbar-brand {
+  color: #fff;
+}
+
+#cabecera.tienda-moviles .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+#cabecera.tienda-moviles .nav-link {
+  color: #fff;
+}
+
+#cabecera.tienda-moviles .nav-link:hover {
+  color: #ccc;
+}
+
+#productContainer.tienda-moviles {
+  padding: 20px;
+}
+
+#productContainer.tienda-moviles .card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#productContainer.tienda-moviles .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#productContainer.tienda-moviles .card-body {
+  padding: 20px;
+}
+
+#productContainer.tienda-moviles .card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+#productContainer.tienda-moviles .card-text {
+  color: #666;
+}
+
+#productContainer.tienda-moviles .btn {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+#productContainer.tienda-moviles .btn:hover {
+  background-color: #f57c00;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.text-center {
+  color: #777;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  main {
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  .btn-primary {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  main {
+    margin-top: 40px;
+  }
+  .form-group {
+    margin-bottom: 25px;
+  }
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  .btn-primary {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    margin-top: 60px;
+  }
+  .form-group {
+    margin-bottom: 30px;
+  }
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  .btn-primary {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+}
+
+#loginForm {
+  margin-top: 50px;
+}
+#loginForm .form-group {
+  position: relative;
+}
+#loginForm .form-group input[type=text],
+#loginForm .form-group input[type=password] {
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */
